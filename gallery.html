@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seeds of Sound | Gallery</title>
+    <meta name="description" content="Explore behind‑the‑scenes photos of the Seeds of Sound project, from retro phone wiring to team collaboration." />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-dOxOQVAILt78ZLQNcw2wD0RGPXft9JpKWAsXt/eYv1Kp4ezpMPAAhaCffI7/Ik2ktV7rplaENwOhN4ho9XQo5g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container nav-content">
+            <a href="index.html" class="logo">
+                <img src="images/logo.jpeg" alt="Logo">
+                <span>Seeds of Sound</span>
+            </a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="seeds.html">Time Capsule</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            <button class="theme-toggle" aria-label="Toggle dark mode"></button>
+        </div>
+    </nav>
+
+    <!-- Gallery Hero -->
+    <section class="hero" style="min-height:60vh;">
+        <img src="images/hero-phone.jpg" alt="Retro phone" style="object-fit: cover; width:100%; height:100%; position:absolute; top:0; left:0; z-index:-2;">
+        <div class="overlay"></div>
+        <div class="content">
+            <h1>Behind the Scenes</h1>
+            <p>Discover the craftsmanship, experimentation and collaboration that power our installations.</p>
+        </div>
+    </section>
+
+    <!-- Gallery Grid -->
+    <section>
+        <div class="container">
+            <h2>Our Workshop</h2>
+            <p class="section-intro">Each image captures a moment in our journey—from soldering circuits to brainstorming ideas. Hover to see captions.</p>
+            <div class="gallery-grid">
+                <div class="gallery-item" id="wire1">
+                    <img src="images/wiring1.jpg" alt="Detailed phone wiring">
+                    <div class="caption">Wiring Close‑up</div>
+                </div>
+                <div class="gallery-item" id="wire2">
+                    <img src="images/wiring2.jpg" alt="Arduino wiring">
+                    <div class="caption">Microcontroller Board</div>
+                </div>
+                <div class="gallery-item" id="wire3">
+                    <img src="images/wiring3.jpg" alt="Testing telephone hardware">
+                    <div class="caption">Hardware Testing</div>
+                </div>
+                <div class="gallery-item" id="invest1">
+                    <img src="images/invest1.png" alt="Presentation graphic">
+                    <div class="caption">Investor Pitch Graphic</div>
+                </div>
+                <div class="gallery-item" id="pledges">
+                    <img src="images/pledge_notes.png" alt="Pledge notes">
+                    <div class="caption">Handwritten Pledges</div>
+                </div>
+                <div class="gallery-item" id="team">
+                    <img src="images/team.jpg" alt="Our team">
+                    <div class="caption">Our Creative Team</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.jpeg" alt="Logo">
+                <span>Seeds of Sound</span>
+            </div>
+            <p>© 2025 Bishop’s University Computer Science Club. All rights reserved.</p>
+            <p class="credits">Designed and built by the BU CS Club.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
